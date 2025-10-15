@@ -58,23 +58,6 @@ psql -d healthcare_db -f database/schema.sql
 node scripts/setup.js
 ```
 
-#### Update the `.env` file with your database credentials:
-```env
-# Database Configuration
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=healthcare_db
-DB_USER=your_username
-DB_PASSWORD=your_password
-
-# JWT Configuration
-JWT_SECRET=your_super_secret_jwt_key_here_make_it_very_long_and_secure
-JWT_EXPIRE=7d
-
-# Server Configuration
-PORT=3000
-NODE_ENV=development
-```
 
 ### 5. Start the server
 
